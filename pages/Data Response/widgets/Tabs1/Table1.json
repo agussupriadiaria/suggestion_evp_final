@@ -43,9 +43,10 @@
     "Date",
     "Category",
     "Department",
+    "No",
     "EditActions1"
   ],
-  "columnUpdatedAt": 1754022265463,
+  "columnUpdatedAt": 1754029672286,
   "columnWidthMap": {
     "Chat_Customer": 554,
     "Chat_dari_user_terkait_suggestion": 448,
@@ -126,6 +127,9 @@
     },
     {
       "key": "primaryColumns.Department.computedValue"
+    },
+    {
+      "key": "primaryColumns.No.computedValue"
     }
   ],
   "dynamicPropertyPathList": [
@@ -179,7 +183,7 @@
   "onAddNewRowSave": "{{Insert_Mapping21.run(() => {\n            showAlert(\"Successfully created!\");\n            Find_Mapping21.run()\n          }, () => {\n            showAlert(\"Unable to create!\");\n          })}}",
   "onPageChange": "{{\n            Find_Mapping21.run();\n            Total_record_Mapping21.run()\n          }}",
   "onSearchTextChanged": "",
-  "onSort": "{{\n            Find_Mapping21.run();\n            Total_record_Mapping21.run()\n          }}",
+  "onSort": "",
   "parentColumnSpace": 19.9375,
   "parentId": "qcjjiv8dbj",
   "parentRowSpace": 10,
@@ -500,6 +504,40 @@
       "verticalAlignment": "CENTER",
       "width": 150
     },
+    "No": {
+      "alias": "No",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "cellBackground": "",
+      "columnType": "number",
+      "computedValue": "{{(() => { const tableData = Table1.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"No\"])) : No })()}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "fontStyle": "",
+      "horizontalAlignment": "LEFT",
+      "id": "No",
+      "index": 0,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "No",
+      "notation": "standard",
+      "originalId": "No",
+      "sticky": "",
+      "textColor": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
     "Summary_Suggestion": {
       "alias": "Summary Suggestion",
       "allowCellWrapping": false,
@@ -572,7 +610,7 @@
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
       "columnType": "number",
-      "computedValue": "{{(() => { const tableData = Table1.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentIndex+1)) : currentIndex+1 })()}}",
+      "computedValue": "{{(() => { const tableData = Table1.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow.No)) : currentRow.No })()}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
