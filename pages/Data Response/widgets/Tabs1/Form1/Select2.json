@@ -1,0 +1,61 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 42,
+  "boxShadow": "none",
+  "defaultOptionValue": "",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "q6z84ekp22",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Service di Everpro",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 50,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 21,
+  "mobileTopRow": 43,
+  "needsErrorInfo": false,
+  "optionLabel": "name",
+  "optionValue": "code",
+  "originalBottomRow": 42,
+  "originalTopRow": 35,
+  "parentColumnSpace": 11.2138671875,
+  "parentId": "aubpttpkga",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 21,
+  "serverSideFiltering": false,
+  "sourceData": "[\n  {\n    \"name\": \"ADS SERVICE\",\n    \"code\": \"ADS SERVICE\"\n  },\n  {\n    \"name\": \"CRM\",\n    \"code\": \"CRM\"\n  },\n  {\n    \"name\": \"EVERPRO CHAT\",\n    \"code\": \"EVERPRO CHAT\"\n  },\n  {\n    \"name\": \"MP ENABLER\",\n    \"code\": \"MP ENABLER\"\n  },\n  {\n    \"name\": \"PRODUCT SOURCING\",\n    \"code\": \"PRODUCT SOURCING\"\n  },\n  {\n    \"name\": \"SHIPPING\",\n    \"code\": \"SHIPPING\"\n  },\n  {\n    \"name\": \"WEB BUILDER\",\n    \"code\": \"WEB BUILDER\"\n  }\n]\n",
+  "topRow": 35,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "z1m4rgv6tl",
+  "widgetName": "Select2"
+}
