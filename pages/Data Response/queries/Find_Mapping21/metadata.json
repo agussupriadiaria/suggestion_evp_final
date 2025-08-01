@@ -16,7 +16,7 @@
         "pagination": {
           "data": {
             "limit": "3000",
-            "offset": "0"
+            "offset": "1"
           }
         },
         "projection": {
