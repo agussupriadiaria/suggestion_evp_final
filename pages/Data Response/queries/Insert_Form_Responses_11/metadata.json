@@ -29,7 +29,7 @@
           "data": ""
         },
         "rowObjects": {
-          "data": "{{(Table1.newRow || {\n\t\"Timestamp\": moment().format(\"DD/MM/YYYY HH:mm\"),\n\t\"Agent Name\":Select1.selectedOptionValue,\n\t\"Customer ID di Qiscus\": Input1.text,\n\t\"Customer Name\": Input2.text,\n\t\"Chat Customer\": Input3.text,\n\t\"Summary Suggestion\": Input4.text,\n\t\"Service di Everpro\": Select2.selectedOptionValue\n})}}"
+          "data": "{{(Table1.newRow || {\n\t\"Timestamp\": moment().format(\"DD/MM/YYYY HH:mm\"),\n\t\"Agent Name\":Select1.selectedOptionValue,\n\t\"Customer ID di Qiscus\": Input1.text,\n\t\"Customer Name\": Input2.text,\n\t\"Chat Customer\": Input3.text,\n\t\"Summary Suggestion\": Input4.text,\n\t\"Service Everpro\": Select2.selectedOptionValue\n})}}"
         },
         "sheetName": {
           "data": "Form Responses 1"

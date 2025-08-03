@@ -16,7 +16,7 @@
         "pagination": {
           "data": {
             "limit": "{{Table2.pageSize}}",
-            "offset": "{{Table2.pageOffset}}"
+            "offset": "0"
           }
         },
         "projection": {

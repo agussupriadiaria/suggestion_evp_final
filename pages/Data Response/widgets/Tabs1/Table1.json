@@ -32,7 +32,7 @@
     }
   },
   "columnOrder": [
-    "rowIndex",
+    "No",
     "Timestamp",
     "Customer_ID_di_Qiscus",
     "Summary_Suggestion",
@@ -43,15 +43,16 @@
     "Date",
     "Category",
     "Department",
-    "No",
+    "rowIndex",
     "EditActions1"
   ],
-  "columnUpdatedAt": 1754029672286,
+  "columnUpdatedAt": 1754185993684,
   "columnWidthMap": {
     "Chat_Customer": 554,
     "Chat_dari_user_terkait_suggestion": 448,
     "Customer_Name": 171,
     "Layanan_Everpro": 211,
+    "No": 60,
     "Summary_Suggestion": 495.00000000000006,
     "Summary_suggestion": 613,
     "rowIndex": 60
@@ -625,8 +626,8 @@
       "isDiscardVisible": true,
       "isEditable": false,
       "isSaveVisible": true,
-      "isVisible": true,
-      "label": "No",
+      "isVisible": false,
+      "label": "RowIndex",
       "notation": "standard",
       "originalId": "rowIndex",
       "sticky": "",
