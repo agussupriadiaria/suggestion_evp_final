@@ -34,11 +34,11 @@
   "columnOrder": [
     "No",
     "Timestamp",
-    "Customer_ID_di_Qiscus",
-    "Summary_Suggestion",
     "Nama_agent",
+    "Customer_ID_di_Qiscus",
     "Nama_user",
     "Chat_dari_user_terkait_suggestion",
+    "Summary_Suggestion",
     "Layanan_Everpro",
     "Date",
     "Category",
@@ -46,7 +46,7 @@
     "rowIndex",
     "EditActions1"
   ],
-  "columnUpdatedAt": 1754185993684,
+  "columnUpdatedAt": 1754632919837,
   "columnWidthMap": {
     "Chat_Customer": 554,
     "Chat_dari_user_terkait_suggestion": 448,
