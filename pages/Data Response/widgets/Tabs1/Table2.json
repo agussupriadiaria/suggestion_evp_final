@@ -328,7 +328,7 @@
       "isVisible": false,
       "label": "Save / Discard",
       "notation": "standard",
-      "onSave": "{{Update_MappingMonthly1.run(() => {\n            showAlert(\"Successfully saved!\");\n            Find_MappingMonthly1.run()\n          }, () => {\n            showAlert(\"Unable to save!\");\n          })}}",
+      "onSave": "",
       "originalId": "EditActions1",
       "saveActionLabel": "Save",
       "saveBorderRadius": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",

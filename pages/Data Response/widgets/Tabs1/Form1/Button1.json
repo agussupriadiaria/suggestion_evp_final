@@ -31,7 +31,7 @@
   "mobileRightColumn": 62,
   "mobileTopRow": 33,
   "needsErrorInfo": false,
-  "onClick": "{{Insert_Form_Responses_11.run().then(() => {\n  navigateTo('https://app.appsmith.com/app/suggestion-evp/data-response-68883fc112a6b00c77cf5816?branch=master', {}, 'SAME_WINDOW');\n}).catch(() => {\n  showAlert('Gagal', 'error');\n});}}",
+  "onClick": "{{Insert_Form_Responses_11.run().then(() => {\n  navigateTo('https://app.appsmith.com/app/suggestion-evp/data-response-68883fc112a6b00c77cf5816?branch=master', {}, 'SAME_WINDOW');\n}).catch(() => {\n  showAlert('Gagal. Cek lagi datanya !', 'error');\n});}}",
   "originalBottomRow": 50,
   "originalTopRow": 46,
   "parentId": "aubpttpkga",
