@@ -33,6 +33,7 @@
   },
   "columnOrder": [
     "No",
+    "Ticketing",
     "Timestamp",
     "Nama_agent",
     "Customer_ID_di_Qiscus",
@@ -45,7 +46,7 @@
     "Department",
     "rowIndex"
   ],
-  "columnUpdatedAt": 1754632919837,
+  "columnUpdatedAt": 1755521630598,
   "columnWidthMap": {
     "Chat_Customer": 554,
     "Chat_dari_user_terkait_suggestion": 448,
@@ -115,6 +116,9 @@
     },
     {
       "key": "primaryColumns.No.computedValue"
+    },
+    {
+      "key": "primaryColumns.Ticketing.computedValue"
     }
   ],
   "dynamicPropertyPathList": [
@@ -496,6 +500,40 @@
       "label": "Summary Suggestion",
       "notation": "standard",
       "originalId": "Summary Suggestion",
+      "sticky": "",
+      "textColor": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "Ticketing": {
+      "alias": "Ticketing",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "cellBackground": "",
+      "columnType": "text",
+      "computedValue": "{{(() => { const tableData = Table1.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"Ticketing\"])) : Ticketing })()}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "fontStyle": "",
+      "horizontalAlignment": "LEFT",
+      "id": "Ticketing",
+      "index": 1,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "Ticketing",
+      "notation": "standard",
+      "originalId": "Ticketing",
       "sticky": "",
       "textColor": "",
       "textSize": "0.875rem",
