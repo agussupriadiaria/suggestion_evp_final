@@ -165,7 +165,7 @@
   "onAddNewRowSave": "{{Insert_MappingMonthly1.run(() => {\n            showAlert(\"Successfully created!\");\n            Find_MappingMonthly1.run()\n          }, () => {\n            showAlert(\"Unable to create!\");\n          })}}",
   "onPageChange": "{{\n            Find_MappingMonthly1.run();\n            Total_record_MappingMonthly1.run()\n          }}",
   "onSearchTextChanged": "",
-  "onSort": "{{\n            Find_MappingMonthly1.run();\n            Total_record_MappingMonthly1.run()\n          }}",
+  "onSort": "",
   "parentColumnSpace": 19.9375,
   "parentId": "l84u310uov",
   "parentRowSpace": 10,
