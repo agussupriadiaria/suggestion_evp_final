@@ -52,7 +52,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 21,
   "serverSideFiltering": false,
-  "sourceData": "[\n  {\n    \"name\": \"Betty\",\n    \"code\": \"Betty\"\n  },\n  {\n    \"name\": \"Binti\",\n    \"code\": \"Binti\"\n  },\n  {\n    \"name\": \"Febri\",\n    \"code\": \"Febri\"\n  },\n  {\n    \"name\": \"Hadi\",\n    \"code\": \"Hadi\"\n  },\n  {\n    \"name\": \"Icha\",\n    \"code\": \"Icha\"\n  },\n  {\n    \"name\": \"Jojo\",\n    \"code\": \"Jojo\"\n  },\n  {\n    \"name\": \"Nurul\",\n    \"code\": \"Nurul\"\n  },\n  {\n    \"name\": \"Okta\",\n    \"code\": \"Okta\"\n  },\n  {\n    \"name\": \"Una\",\n    \"code\": \"Una\"\n  },\n  {\n    \"name\": \"Yulia\",\n    \"code\": \"Yulia\"\n  },\n  {\n    \"name\": \"Alam\",\n    \"code\": \"Alam\"\n  },\n  {\n    \"name\": \"Indi\",\n    \"code\": \"Indi\"\n  }\n]",
+  "sourceData": "[\n  {\n    \"name\": \"Betty\",\n    \"code\": \"Betty\"\n  },\n  {\n    \"name\": \"Binti\",\n    \"code\": \"Binti\"\n  },\n  {\n    \"name\": \"Hadi\",\n    \"code\": \"Hadi\"\n  },\n  {\n    \"name\": \"Icha\",\n    \"code\": \"Icha\"\n  },\n  {\n    \"name\": \"Jojo\",\n    \"code\": \"Jojo\"\n  },\n  {\n    \"name\": \"Nurul\",\n    \"code\": \"Nurul\"\n  },\n  {\n    \"name\": \"Okta\",\n    \"code\": \"Okta\"\n  },\n  {\n    \"name\": \"Una\",\n    \"code\": \"Una\"\n  },\n  {\n    \"name\": \"Yulia\",\n    \"code\": \"Yulia\"\n  },\n  {\n    \"name\": \"Alam\",\n    \"code\": \"Alam\"\n  },\n  {\n    \"name\": \"Indi\",\n    \"code\": \"Indi\"\n  }\n]",
   "topRow": 8,
   "type": "SELECT_WIDGET",
   "version": 1,
