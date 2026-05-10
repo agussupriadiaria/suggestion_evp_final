@@ -72,7 +72,7 @@
     "dynamicBindingPathList": [],
     "name": "Find_Mapping22",
     "pageId": "Data Response",
-    "runBehaviour": "AUTOMATIC",
-    "userSetOnLoad": false
+    "runBehaviour": "ON_PAGE_LOAD",
+    "userSetOnLoad": true
   }
 }
